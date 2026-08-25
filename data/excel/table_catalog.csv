@@ -1,0 +1,33 @@
+source_sheet,table_number,title_pt,title_en,file,rows,columns
+Tab1,1,Dados Gerais por Zona de Pesquisa – 2023,General Data by Survey Zone – 2023,site-tables/table_1.csv,527,11
+Tab2,2,População por Faixa Etária e Zona de Residência – 2023,Population by Age Group and Residence Zone – 2023,site-tables/table_2.csv,527,13
+Tab3,3,População por Grau de Instrução e Zona de Residência – 2023,Population by Education Level and Residence Zone – 2023,site-tables/table_3.csv,527,7
+Tab4,4,População por Sexo e Zona de Residência – 2023,Population by Sex and Residence Zone – 2023,site-tables/table_4.csv,527,5
+Tab5,5,População por Faixa de Renda Familiar Mensal e Zona de Residência – 2023,Population by Monthly Family Income Bracket and Residence Zone – 2023,site-tables/table_5.csv,527,7
+Tab6,6,"Renda Total, Renda Média Familiar, Renda per Capita e Renda Mediana Familiar por Zona de Residência - 2023","Total Income, Mean Family Income, Per Capita Income, and Median Family Income by Residence Zone – 2023",site-tables/table_6.csv,527,5
+Tab7,7,Famílias por Número de Automóveis Particulares e Zona de Residência – 2023,Families by Number of Private Cars and Residence Zone – 2023,site-tables/table_7.csv,527,6
+Tab8,8,População que Trabalha por Vínculo Empregatício do Primeiro Trabalho e Zona de Residência – 2023,Working Population by Employment Relationship at Primary Job and Residence Zone – 2023,site-tables/table_8.csv,527,11
+Tab9,9,População por Condição de Atividade e Zona de Residência – 2023,Population by Activity Status and Residence Zone – 2023,site-tables/table_9.csv,527,10
+Tab10,10,Matrículas Escolares por Tipo de Estabelecimento e Zona de Escola – 2023,School Enrollments by Establishment Type and School Zone – 2023,site-tables/table_10.csv,527,4
+Tab11,11,Empregos por Setor de Atividade e Zona de Emprego – 2023,Jobs by Activity Sector and Work Zone – 2023,site-tables/table_11.csv,527,5
+Tab12,12,Empregos por Classe de Atividade e Zona de Emprego – 2023,Jobs by Activity Class and Work Zone – 2023,site-tables/table_12.csv,527,16
+Tab13,13,Empregos por Vínculo Empregatício e Zona de Emprego – 2023,Jobs by Employment Relationship and Work Zone – 2023,site-tables/table_13.csv,527,10
+Tab14,14,"Empregos em Endereço Fixo, na Propria Residência e Sem Endereço Fixo, por Zona de Emprego - 2023","Jobs at a Fixed Address, at Home, and Without a Fixed Address, by Work Zone – 2023",site-tables/table_14.csv,527,5
+Tab15,15,Empregos com Trabalho Externo ou Interno por Zona de Emprego - 2023,Jobs with External or Internal Work by Work Zone – 2023,site-tables/table_15.csv,527,4
+Tab16,16,Viagens Diárias Produzidas por Modo Principal e Zona de Origem – 2023,Daily Trips Produced by Main Mode and Origin Zone – 2023,site-tables/table_16.csv,527,16
+Tab17,17,Viagens Diárias Produzidas por Tipo e Zona de Origem – 2023,Daily Trips Produced by Type and Origin Zone – 2023,site-tables/table_17.csv,527,6
+Tab18,18,Viagens Diárias Produzidas por Motivo e Zona de Origem – 2023,Daily Trips Produced by Purpose and Origin Zone – 2023,site-tables/table_18.csv,527,12
+Tab18a,18a,Viagens Diárias Produzidas por Motivo no Destino e Zona de Origem – 2023,Daily Trips Produced by Destination Purpose and Origin Zone – 2023,site-tables/table_18a.csv,527,13
+Tab19,19,Viagens Diárias Produzidas a Pé por Razão de Escolha do Modo e Zona de Origem – 2023,Daily Walking Trips Produced by Reason for Mode Choice and Origin Zone – 2023,site-tables/table_19.csv,527,11
+Tab20,20,Tempo Médio das Viagem Produzidas por Tipo de Viagem e Zona de Origem – 2023,Average Travel Time of Trips Produced by Trip Type and Origin Zone – 2023,site-tables/table_20.csv,527,5
+Tab21,21,Viagens Diárias Atraídas por Modo Principal e Zona de Destino – 2023,Daily Trips Attracted by Main Mode and Destination Zone – 2023,site-tables/table_21.csv,527,16
+Tab22,22,Viagens Diárias Atraídas por Tipo e Zona de Destino – 2023,Daily Trips Attracted by Type and Destination Zone – 2023,site-tables/table_22.csv,527,6
+Tab23,23,Viagens Diárias Atraídas por Motivo e Zona de Destino – 2023,Daily Trips Attracted by Purpose and Destination Zone – 2023,site-tables/table_23.csv,527,12
+Tab23a,23a,Viagens Diárias Atraídas por Motivo no Destino e Zona de Destino – 2023,Daily Trips Attracted by Destination Purpose and Destination Zone – 2023,site-tables/table_23a.csv,527,13
+Tab24,24,Viagens Diárias por Modo Coletivo e Zonas de Origem e Destino - 2023,Daily Public Transport Trips by Origin and Destination Zones – 2023,site-tables/table_24.csv,277729,3
+Tab25,25,Viagens Diárias por Modo Individual e Zonas de Origem e Destino  - 2023,Daily Individual Transport Trips by Origin and Destination Zones – 2023,site-tables/table_25.csv,277729,3
+Tab26,26,Viagens Diárias Motorizadas por Zonas de Origem e Destino  - 2023,Daily Motorized Trips by Origin and Destination Zones – 2023,site-tables/table_26.csv,277729,3
+Tab27,27,Viagens Diárias a Pé por Zonas de Origem e Destino  - 2023,Daily Walking Trips by Origin and Destination Zones – 2023,site-tables/table_27.csv,277729,3
+Tab28,28,Viagens Diárias por Bicicleta e Zonas de Origem e Destino - 2023,Daily Bicycle Trips by Origin and Destination Zones – 2023,site-tables/table_28.csv,277729,3
+Tab29,29,Viagens Diárias Não-Motorizadas por Zonas de Origem e Destino - 2023,Daily Non-Motorized Trips by Origin and Destination Zones – 2023,site-tables/table_29.csv,277729,3
+Tab30,30,Viagens Diárias Totais por Zonas de Origem e Destino - 2023,Total Daily Trips by Origin and Destination Zones – 2023,site-tables/table_30.csv,277729,3

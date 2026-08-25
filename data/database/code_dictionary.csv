@@ -1,0 +1,327 @@
+field_number,column_name,code,label_pt,source_column_name
+6,first_household_record,0,Demais Registros,first_household_record
+6,first_household_record,1,Primeiro Registro do Domicílio,first_household_record
+9,interview_code,1,Completa com Viagem,interview_code
+9,interview_code,2,Completa sem Viagem,interview_code
+11,dwelling_type,1,Particular,dwelling_type
+11,dwelling_type,2,Coletivo,dwelling_type
+12,piped_water,0,Não,piped_water
+12,piped_water,1,Sim,piped_water
+13,paved_street,0,Não,paved_street
+13,paved_street,1,Sim,paved_street
+17,first_family_record,0,Demais Registros,first_family_record
+17,first_family_record,1,Primeiro Registro da Família,first_family_record
+21,housing_tenure,1,Alugada,housing_tenure
+21,housing_tenure,2,Própria,housing_tenure
+21,housing_tenure,3,Cedida,housing_tenure
+21,housing_tenure,4,Outros,housing_tenure
+21,housing_tenure,5,Não Respondeu,housing_tenure
+35,comfort_items_declaration,0,Não Declarou Itens de Conforto,comfort_items_declaration
+35,comfort_items_declaration,1,Declarou Itens de Conforto,comfort_items_declaration
+36,brazil_economic_class,1,A,brazil_economic_class
+36,brazil_economic_class,2,B1,brazil_economic_class
+36,brazil_economic_class,3,B2,brazil_economic_class
+36,brazil_economic_class,4,C1,brazil_economic_class
+36,brazil_economic_class,5,C2,brazil_economic_class
+36,brazil_economic_class,6,D e E,brazil_economic_class
+42,family_income_code,1,Renda Familiar Declarada e Maior que Zero,family_income_code
+42,family_income_code,2,Renda Familiar Declarada como Zero,family_income_code
+42,family_income_code,3,Renda Atribuída pelo Critério Brasil,family_income_code
+42,family_income_code,4,Renda Atribuída pela Média da Zona,family_income_code
+44,first_person_record,0,Demais registros,first_person_record
+44,first_person_record,1,Primeiro registro da pessoa,first_person_record
+47,family_role,1,Pessoa Responsável,family_role
+47,family_role,2,Cônjuge/Companheiro(a),family_role
+47,family_role,3,Filho(a)/Enteado(a),family_role
+47,family_role,4,Outro Parente,family_role
+47,family_role,5,Agregado,family_role
+47,family_role,6,Empregado Residente,family_role
+47,family_role,7,Parente do Empregado Residente,family_role
+49,sex,1,Masculino,sex
+49,sex,2,Feminino,sex
+49,sex,3,Não respondeu,sex
+50,race,1,Branca,race
+50,race,2,Preta,race
+50,race,3,Amarela,race
+50,race,4,Parda,race
+50,race,5,Indígena,race
+50,race,6,Sem declaração,race
+51,currently_studies,1,Não,currently_studies
+51,currently_studies,2,Creche/Pré-Escola,currently_studies
+51,currently_studies,3,1º Grau /Fundamental,currently_studies
+51,currently_studies,4,2º Grau/Médio,currently_studies
+51,currently_studies,5,Superior/Universitário,currently_studies
+51,currently_studies,6,Outros,currently_studies
+52,education_level,1,Não Alfabetizado/Fundamental I Incompleto,education_level
+52,education_level,2,Fundamental I Completo/Fundamental II Incompleto,education_level
+52,education_level,3,Fundamental II Completo/Médio Incompleto,education_level
+52,education_level,4,Médio Completo/Superior Incompleto,education_level
+52,education_level,5,Superior Completo,education_level
+53,activity_status,1,Tem trabalho regular,activity_status
+53,activity_status,2,Faz bico,activity_status
+53,activity_status,3,Em Licença Médica,activity_status
+53,activity_status,4,Aposentado/Pensionista,activity_status
+53,activity_status,5,Sem Trabalho,activity_status
+53,activity_status,6,Nunca Trabalhou,activity_status
+53,activity_status,7,Dona de Casa,activity_status
+53,activity_status,8,Estudante,activity_status
+54,individual_income_status,1,Tem Renda,individual_income_status
+54,individual_income_status,2,Não Tem Renda,individual_income_status
+54,individual_income_status,3,Não Respondeu,individual_income_status
+56,stopped_transport_due_pandemic,N,Não,stopped_transport_due_pandemic
+56,stopped_transport_due_pandemic,S,Sim,stopped_transport_due_pandemic
+57,stopped_metro_monorail,N,Não,stopped_metro_monorail
+57,stopped_metro_monorail,S,Sim,stopped_metro_monorail
+58,stopped_train,N,Não,stopped_train
+58,stopped_train,S,Sim,stopped_train
+59,stopped_bus_van,N,Não,stopped_bus_van
+59,stopped_bus_van,S,Sim,stopped_bus_van
+60,stopped_chartered_transport,N,Não,stopped_chartered_transport
+60,stopped_chartered_transport,S,Sim,stopped_chartered_transport
+61,stopped_school_transport,N,Não,stopped_school_transport
+61,stopped_school_transport,S,Sim,stopped_school_transport
+62,stopped_car,N,Não,stopped_car
+62,stopped_car,S,Sim,stopped_car
+63,stopped_conventional_taxi,N,Não,stopped_conventional_taxi
+63,stopped_conventional_taxi,S,Sim,stopped_conventional_taxi
+64,stopped_ride_hailing,N,Não,stopped_ride_hailing
+64,stopped_ride_hailing,S,Sim,stopped_ride_hailing
+65,stopped_motorcycle,N,Não,stopped_motorcycle
+65,stopped_motorcycle,S,Sim,stopped_motorcycle
+66,stopped_bicycle,N,Não,stopped_bicycle
+66,stopped_bicycle,S,Sim,stopped_bicycle
+71,school_type,1,Pública,school_type
+71,school_type,2,Particular,school_type
+72,school_attendance_mode,1,Presencial o tempo todo,school_attendance_mode
+72,school_attendance_mode,2,Remoto o tempo todo,school_attendance_mode
+72,school_attendance_mode,3,Híbrido,school_attendance_mode
+73,school_hybrid_frequency_unit,1,dias por semana,school_hybrid_frequency_unit
+73,school_hybrid_frequency_unit,2,dias por mês,school_hybrid_frequency_unit
+73,school_hybrid_frequency_unit,3,semanas por mês,school_hybrid_frequency_unit
+79,primary_work_at_home,1,Sim,primary_work_at_home
+79,primary_work_at_home,2,Não,primary_work_at_home
+79,primary_work_at_home,3,Sem endereço fixo,primary_work_at_home
+80,primary_work_external,1,Sim,primary_work_external
+80,primary_work_external,2,Não,primary_work_external
+82,primary_work_activity_sector,1,Agrícola,primary_work_activity_sector
+82,secondary_work_activity_sector,1,Agrícola,primary_work_activity_sector
+82,primary_work_activity_sector,10,Serviço de Saúde,primary_work_activity_sector
+82,secondary_work_activity_sector,10,Serviço de Saúde,primary_work_activity_sector
+82,primary_work_activity_sector,11,Serviço de Educação,primary_work_activity_sector
+82,secondary_work_activity_sector,11,Serviço de Educação,primary_work_activity_sector
+82,primary_work_activity_sector,12,Serviço Especializado,primary_work_activity_sector
+82,secondary_work_activity_sector,12,Serviço Especializado,primary_work_activity_sector
+82,primary_work_activity_sector,13,Serviço de Administração Pública,primary_work_activity_sector
+82,secondary_work_activity_sector,13,Serviço de Administração Pública,primary_work_activity_sector
+82,primary_work_activity_sector,14,Outros Serviços,primary_work_activity_sector
+82,secondary_work_activity_sector,14,Outros Serviços,primary_work_activity_sector
+82,primary_work_activity_sector,2,Construção Civil,primary_work_activity_sector
+82,secondary_work_activity_sector,2,Construção Civil,primary_work_activity_sector
+82,primary_work_activity_sector,3,Indústria,primary_work_activity_sector
+82,secondary_work_activity_sector,3,Indústria,primary_work_activity_sector
+82,primary_work_activity_sector,4,Comércio,primary_work_activity_sector
+82,secondary_work_activity_sector,4,Comércio,primary_work_activity_sector
+82,primary_work_activity_sector,5,Serviço de Transporte de Carga,primary_work_activity_sector
+82,secondary_work_activity_sector,5,Serviço de Transporte de Carga,primary_work_activity_sector
+82,primary_work_activity_sector,6,Serviço de Transporte de Passageiros,primary_work_activity_sector
+82,secondary_work_activity_sector,6,Serviço de Transporte de Passageiros,primary_work_activity_sector
+82,primary_work_activity_sector,7,Serviço Creditício-financeiro,primary_work_activity_sector
+82,secondary_work_activity_sector,7,Serviço Creditício-financeiro,primary_work_activity_sector
+82,primary_work_activity_sector,8,Serviço Pessoal,primary_work_activity_sector
+82,secondary_work_activity_sector,8,Serviço Pessoal,primary_work_activity_sector
+82,primary_work_activity_sector,9,Serviço de Alimentação,primary_work_activity_sector
+82,secondary_work_activity_sector,9,Serviço de Alimentação,primary_work_activity_sector
+83,primary_work_employment_relationship,1,Assalariado com carteira,primary_work_employment_relationship
+83,secondary_work_employment_relationship,1,Assalariado com carteira,primary_work_employment_relationship
+83,primary_work_employment_relationship,2,Assalariado sem carteira,primary_work_employment_relationship
+83,secondary_work_employment_relationship,2,Assalariado sem carteira,primary_work_employment_relationship
+83,primary_work_employment_relationship,3,Funcionário público,primary_work_employment_relationship
+83,secondary_work_employment_relationship,3,Funcionário público,primary_work_employment_relationship
+83,primary_work_employment_relationship,4,Profissional Liberal,primary_work_employment_relationship
+83,secondary_work_employment_relationship,4,Profissional Liberal,primary_work_employment_relationship
+83,primary_work_employment_relationship,5,Autônomo com CNPJ,primary_work_employment_relationship
+83,secondary_work_employment_relationship,5,Autônomo com CNPJ,primary_work_employment_relationship
+83,primary_work_employment_relationship,6,Autônomo sem CNPJ,primary_work_employment_relationship
+83,secondary_work_employment_relationship,6,Autônomo sem CNPJ,primary_work_employment_relationship
+83,primary_work_employment_relationship,7,Empregador,primary_work_employment_relationship
+83,secondary_work_employment_relationship,7,Empregador,primary_work_employment_relationship
+83,primary_work_employment_relationship,8,Dono de Negócio Familiar,primary_work_employment_relationship
+83,secondary_work_employment_relationship,8,Dono de Negócio Familiar,primary_work_employment_relationship
+83,primary_work_employment_relationship,9,Trabalhador familiar,primary_work_employment_relationship
+83,secondary_work_employment_relationship,9,Trabalhador familiar,primary_work_employment_relationship
+84,primary_work_mode,1,Só presencial,primary_work_mode
+84,primary_work_mode,2,Só home office / teletrabalho,primary_work_mode
+84,primary_work_mode,3,Híbrido,primary_work_mode
+85,primary_work_hybrid_frequency_unit,1,Dias por semana,primary_work_hybrid_frequency_unit
+85,primary_work_hybrid_frequency_unit,2,Dias por mês,primary_work_hybrid_frequency_unit
+85,primary_work_hybrid_frequency_unit,3,semanas por mês,primary_work_hybrid_frequency_unit
+91,secondary_work_at_home,1,Sim,secondary_work_at_home
+91,secondary_work_at_home,2,Não,secondary_work_at_home
+91,secondary_work_at_home,3,Sem endereço fixo,secondary_work_at_home
+92,secondary_work_external,1,Sim,secondary_work_external
+92,secondary_work_external,2,Não,secondary_work_external
+96,secondary_work_mode,1,Só presencial,secondary_work_mode
+96,secondary_work_mode,2,Só home office / teletrabalho,secondary_work_mode
+96,secondary_work_mode,3,Híbrido,secondary_work_mode
+97,secondary_work_hybrid_frequency_unit,1,Dias por semana,secondary_work_hybrid_frequency_unit
+97,secondary_work_hybrid_frequency_unit,2,Dias por mês,secondary_work_hybrid_frequency_unit
+97,secondary_work_hybrid_frequency_unit,3,semanas por mês,secondary_work_hybrid_frequency_unit
+101,weekday,2,Segunda-feira,weekday
+101,weekday,3,Terça-feira,weekday
+101,weekday,4,Quarta-feira,weekday
+101,weekday,5,Quinta-feira,weekday
+101,weekday,6,Sexta-feira,weekday
+123,origin_purpose,1,Trabalho Indústria,origin_purpose
+123,destination_purpose,1,Trabalho Indústria,origin_purpose
+123,origin_purpose,10,Assuntos Pessoais,origin_purpose
+123,destination_purpose,10,Assuntos Pessoais,origin_purpose
+123,origin_purpose,11,Refeição,origin_purpose
+123,destination_purpose,11,Refeição,origin_purpose
+123,origin_purpose,2,Trabalho Comércio,origin_purpose
+123,destination_purpose,2,Trabalho Comércio,origin_purpose
+123,origin_purpose,3,Trabalho Serviços,origin_purpose
+123,destination_purpose,3,Trabalho Serviços,origin_purpose
+123,origin_purpose,4,Escola/Educação,origin_purpose
+123,destination_purpose,4,Escola/Educação,origin_purpose
+123,origin_purpose,5,Compras,origin_purpose
+123,destination_purpose,5,Compras,origin_purpose
+123,origin_purpose,6,Médico/Dentista/Saúde,origin_purpose
+123,destination_purpose,6,Médico/Dentista/Saúde,origin_purpose
+123,origin_purpose,7,Recreação/Visitas/Lazer,origin_purpose
+123,destination_purpose,7,Recreação/Visitas/Lazer,origin_purpose
+123,origin_purpose,8,Residência,origin_purpose
+123,destination_purpose,8,Residência,origin_purpose
+123,origin_purpose,9,Procurar Emprego,origin_purpose
+123,destination_purpose,9,Procurar Emprego,origin_purpose
+125,trip_purpose,1,Trabalho Indústria,trip_purpose
+125,trip_purpose,10,Assuntos Pessoais,trip_purpose
+125,trip_purpose,11,Refeição,trip_purpose
+125,trip_purpose,2,Trabalho Comércio,trip_purpose
+125,trip_purpose,3,Trabalho Serviços,trip_purpose
+125,trip_purpose,4,Escola/Educação,trip_purpose
+125,trip_purpose,5,Compras,trip_purpose
+125,trip_purpose,6,Médico/Dentista/Saúde,trip_purpose
+125,trip_purpose,7,Recreação/Visitas/Lazer,trip_purpose
+125,trip_purpose,8,Residência,trip_purpose
+125,trip_purpose,9,Procurar Emprego,trip_purpose
+126,serve_passenger_origin,1,Sim,serve_passenger_origin
+126,serve_passenger_origin,2,Não,serve_passenger_origin
+127,serve_passenger_destination,1,Sim,serve_passenger_destination
+127,serve_passenger_destination,2,Não,serve_passenger_destination
+128,mode_1,01,Metrô,mode_1
+128,mode_2,01,Metrô,mode_1
+128,mode_3,01,Metrô,mode_1
+128,mode_4,01,Metrô,mode_1
+128,main_mode,01,Metrô,mode_1
+128,mode_1,02,Trem,mode_1
+128,mode_2,02,Trem,mode_1
+128,mode_3,02,Trem,mode_1
+128,mode_4,02,Trem,mode_1
+128,main_mode,02,Trem,mode_1
+128,mode_1,03,Monotrilho,mode_1
+128,mode_2,03,Monotrilho,mode_1
+128,mode_3,03,Monotrilho,mode_1
+128,mode_4,03,Monotrilho,mode_1
+128,main_mode,03,Monotrilho,mode_1
+128,mode_1,04,Ônibus/micro-ônibus/van do município de São Paulo,mode_1
+128,mode_2,04,Ônibus/micro-ônibus/van do município de São Paulo,mode_1
+128,mode_3,04,Ônibus/micro-ônibus/van do município de São Paulo,mode_1
+128,mode_4,04,Ônibus/micro-ônibus/van do município de São Paulo,mode_1
+128,main_mode,04,Ônibus/micro-ônibus/van do município de São Paulo,mode_1
+128,mode_1,05,Ônibus/micro-ônibus/van de outros municípios,mode_1
+128,mode_2,05,Ônibus/micro-ônibus/van de outros municípios,mode_1
+128,mode_3,05,Ônibus/micro-ônibus/van de outros municípios,mode_1
+128,mode_4,05,Ônibus/micro-ônibus/van de outros municípios,mode_1
+128,main_mode,05,Ônibus/micro-ônibus/van de outros municípios,mode_1
+128,mode_1,06,Ônibus/micro-ônibus/van metropolitano,mode_1
+128,mode_2,06,Ônibus/micro-ônibus/van metropolitano,mode_1
+128,mode_3,06,Ônibus/micro-ônibus/van metropolitano,mode_1
+128,mode_4,06,Ônibus/micro-ônibus/van metropolitano,mode_1
+128,main_mode,06,Ônibus/micro-ônibus/van metropolitano,mode_1
+128,mode_1,07,Transporte Fretado,mode_1
+128,mode_2,07,Transporte Fretado,mode_1
+128,mode_3,07,Transporte Fretado,mode_1
+128,mode_4,07,Transporte Fretado,mode_1
+128,main_mode,07,Transporte Fretado,mode_1
+128,mode_1,08,Transporte Escolar,mode_1
+128,mode_2,08,Transporte Escolar,mode_1
+128,mode_3,08,Transporte Escolar,mode_1
+128,mode_4,08,Transporte Escolar,mode_1
+128,main_mode,08,Transporte Escolar,mode_1
+128,mode_1,09,Dirigindo Automóvel,mode_1
+128,mode_2,09,Dirigindo Automóvel,mode_1
+128,mode_3,09,Dirigindo Automóvel,mode_1
+128,mode_4,09,Dirigindo Automóvel,mode_1
+128,main_mode,09,Dirigindo Automóvel,mode_1
+128,mode_1,10,Passageiro de Automóvel,mode_1
+128,mode_2,10,Passageiro de Automóvel,mode_1
+128,mode_3,10,Passageiro de Automóvel,mode_1
+128,mode_4,10,Passageiro de Automóvel,mode_1
+128,main_mode,10,Passageiro de Automóvel,mode_1
+128,mode_1,11,Táxi Convencional,mode_1
+128,mode_2,11,Táxi Convencional,mode_1
+128,mode_3,11,Táxi Convencional,mode_1
+128,mode_4,11,Táxi Convencional,mode_1
+128,main_mode,11,Táxi Convencional,mode_1
+128,mode_1,12,Táxi não Convencional / aplicativo,mode_1
+128,mode_2,12,Táxi não Convencional / aplicativo,mode_1
+128,mode_3,12,Táxi não Convencional / aplicativo,mode_1
+128,mode_4,12,Táxi não Convencional / aplicativo,mode_1
+128,main_mode,12,Táxi não Convencional / aplicativo,mode_1
+128,mode_1,13,Dirigindo Moto,mode_1
+128,mode_2,13,Dirigindo Moto,mode_1
+128,mode_3,13,Dirigindo Moto,mode_1
+128,mode_4,13,Dirigindo Moto,mode_1
+128,main_mode,13,Dirigindo Moto,mode_1
+128,mode_1,14,Passageiro de Moto,mode_1
+128,mode_2,14,Passageiro de Moto,mode_1
+128,mode_3,14,Passageiro de Moto,mode_1
+128,mode_4,14,Passageiro de Moto,mode_1
+128,main_mode,14,Passageiro de Moto,mode_1
+128,mode_1,15,Passageiro de Mototáxi,mode_1
+128,mode_2,15,Passageiro de Mototáxi,mode_1
+128,mode_3,15,Passageiro de Mototáxi,mode_1
+128,mode_4,15,Passageiro de Mototáxi,mode_1
+128,main_mode,15,Passageiro de Mototáxi,mode_1
+128,mode_1,16,Bicicleta,mode_1
+128,mode_2,16,Bicicleta,mode_1
+128,mode_3,16,Bicicleta,mode_1
+128,mode_4,16,Bicicleta,mode_1
+128,main_mode,16,Bicicleta,mode_1
+128,mode_1,17,A Pé,mode_1
+128,mode_2,17,A Pé,mode_1
+128,mode_3,17,A Pé,mode_1
+128,mode_4,17,A Pé,mode_1
+128,main_mode,17,A Pé,mode_1
+128,mode_1,18,Outros,mode_1
+128,mode_2,18,Outros,mode_1
+128,mode_3,18,Outros,mode_1
+128,mode_4,18,Outros,mode_1
+128,main_mode,18,Outros,mode_1
+140,trip_type,1,Coletivo,trip_type
+140,trip_type,2,Individual,trip_type
+140,trip_type,3,A pé,trip_type
+140,trip_type,4,Bicicleta,trip_type
+141,vehicle_parking_type,1,Não estacionou,vehicle_parking_type
+141,vehicle_parking_type,2,Zona azul,vehicle_parking_type
+141,vehicle_parking_type,3,Patrocinado,vehicle_parking_type
+141,vehicle_parking_type,4,Proprio,vehicle_parking_type
+141,vehicle_parking_type,5,Meio-fio,vehicle_parking_type
+141,vehicle_parking_type,6,Avulso,vehicle_parking_type
+141,vehicle_parking_type,7,Mensal,vehicle_parking_type
+141,vehicle_parking_type,8,Não respondeu,vehicle_parking_type
+143,walk_bicycle_reason,1,Pequena distância,walk_bicycle_reason
+143,walk_bicycle_reason,2,Condução cara,walk_bicycle_reason
+143,walk_bicycle_reason,3,Ponto/Estação distante,walk_bicycle_reason
+143,walk_bicycle_reason,4,Condução demora para passar,walk_bicycle_reason
+143,walk_bicycle_reason,5,Viagem demorada,walk_bicycle_reason
+143,walk_bicycle_reason,6,Condução lotada,walk_bicycle_reason
+143,walk_bicycle_reason,7,Atividade física,walk_bicycle_reason
+143,walk_bicycle_reason,8,Medo de contágio,walk_bicycle_reason
+143,walk_bicycle_reason,9,Outros motivos,walk_bicycle_reason
+144,bicycle_parking_type,1,Não Estacionou,bicycle_parking_type
+144,bicycle_parking_type,2,Bicicletário gratuito,bicycle_parking_type
+144,bicycle_parking_type,3,Bicicletário pago,bicycle_parking_type
+144,bicycle_parking_type,4,Outro Local,bicycle_parking_type
+145,bicycle_ownership,1,Própria,bicycle_ownership
+145,bicycle_ownership,2,Compartilhada,bicycle_ownership

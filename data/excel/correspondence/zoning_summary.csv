@@ -1,0 +1,48 @@
+subregion,municipality,area,first_zone,last_zone,zone_count,subregion_zone_total
+Central,São Paulo,Central,1,108,108,
+Central,São Paulo,Noroeste,109,127,19,
+Central,São Paulo,Norte,128,165,38,
+Central,São Paulo,Nordeste,166,207,42,
+Central,São Paulo,Leste,208,235,28,
+Central,São Paulo,Sudeste,236,267,32,
+Central,São Paulo,Sul,268,300,33,
+Central,São Paulo,Sudoeste,301,316,16,
+Central,São Paulo,Oeste,317,343,27,343
+Norte,Caieiras,,344,347,4,
+Norte,Cajamar,,348,349,2,
+Norte,Franco da Rocha,,350,354,5,
+Norte,Francisco Morato,,355,358,4,
+Norte,Mairiporã,,359,362,4,19
+Nordeste,Guarulhos,,363,386,24,
+Nordeste,Arujá,,387,389,3,
+Nordeste,Santa Isabel,,390,393,4,31
+Leste,Ferraz de Vasconcelos,,394,396,3,
+Leste,Poá,,397,398,2,
+Leste,Itaquaquecetuba,,399,402,4,
+Leste,Suzano,,403,406,4,
+Leste,Mogi das Cruzes,,407,417,11,
+Leste,Biritiba-Mirim,,418,419,2,
+Leste,Salesópolis,,420,421,2,
+Leste,Guararema,,422,423,2,30
+Sudeste,São Caetano do Sul,,424,428,5,
+Sudeste,Santo André,,429,441,13,
+Sudeste,Mauá,,442,446,5,
+Sudeste,Ribeirão Pires,,447,449,3,
+Sudeste,Rio Grande da Serra,,450,451,2,
+Sudeste,São Bernardo do Campo,,452,462,11,
+Sudeste,Diadema,,463,467,5,44
+Sudoeste,Taboão da Serra,,468,471,4,
+Sudoeste,Embu das Artes,,472,475,4,
+Sudoeste,Itapecerica da Serra,,476,478,3,
+Sudoeste,São Lourenço da Serra,,479,479,1,
+Sudoeste,Embu-Guaçu,,480,482,3,
+Sudoeste,Juquitiba,,483,485,3,18
+Oeste,Barueri,,486,493,8,
+Oeste,Carapicuíba,,494,498,5,
+Oeste,Osasco,,499,512,14,
+Oeste,Jandira,,513,515,3,
+Oeste,Cotia,,516,521,6,
+Oeste,Vargem Grande Paulista,,522,522,1,
+Oeste,Itapevi,,523,525,3,
+Oeste,Santana do Parnaíba,,526,526,1,
+Oeste,Pirapora do Bom Jesus,,527,527,1,42

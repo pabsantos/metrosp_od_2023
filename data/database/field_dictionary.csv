@@ -1,0 +1,148 @@
+field_number,column_name,source_variable_pt,description_pt,entity,start_position,end_position,length,source_codes_note_pt,source_dbf_name,r_storage_type
+1,zone,ZONA,Zona do Domicílio,household,1,3,3,1 a 527,ZONA,integer
+2,household_municipality,MUNI_DOM,Município de Domicílio,household,4,5,2,1 a 39,MUNI_DOM,integer
+3,household_x,CO_DOM_X,Coordenada X Domicílio,household,6,17,12,12 dígitos,CO_DOM_X,integer
+4,household_y,CO_DOM_Y,Coordenada Y Domicílio,household,18,29,12,12 dígitos,CO_DOM_Y,integer
+5,household_id,ID_DOM,Identifica Domicílio,household,30,37,8,8 dígitos,ID_DOM,character
+6,first_household_record,F_DOM,Identifica Primeiro Registro do Domicílio,household,38,38,1,0 - Demais Registros,F_DOM,integer
+7,household_expansion_factor,FE_DOM,Fator de Expansão do Domicílio,household,39,49,11,"11 dígitos, 6 casas decimais",FE_DOM,numeric
+8,household_number,DOM,Número do Domicílio,household,50,53,4,,DOM,integer
+9,interview_code,CD_ENTRE,Código de Entrevista,household,54,54,1,1 - Completa com Viagem,CD_ENTRE,integer
+10,interview_date,DATA,Data da Entrevista,household,55,65,11,,DATA,Date
+11,dwelling_type,TIPO_DOM,Tipo de Domicílio,household,66,66,1,1 - Particular,TIPO_DOM,integer
+12,piped_water,AGUA,Possui água encanada?,household,67,67,1,0 - Não,AGUA,character
+13,paved_street,RUA_PAVI,A rua é pavimentada?,household,68,68,1,0 - Não,RUA_PAVI,character
+14,household_resident_count,NO_MORAD,Total de Moradores no Domicílio,household,69,70,2,,NO_MORAD,integer
+15,household_family_count,TOT_FAM,Total de Familias no Domicílio,household,71,71,1,,TOT_FAM,integer
+16,family_id,ID_FAM,Identifica Família,family,72,80,9,,ID_FAM,integer
+17,first_family_record,F_FAM,Identifica Primeiro Registro da Família,family,81,81,1,0 - Demais Registros,F_FAM,integer
+18,family_expansion_factor,FE_FAM,Fator de Expansão da Família,family,82,93,12,"11 dígitos, 6 casas decimais",FE_FAM,numeric
+19,family_number,FAMILIA,Número da Família,family,94,94,1,,FAMILIA,integer
+20,family_resident_count,NO_MORAF,Total de Moradores na Família,family,95,96,2,,NO_MORAF,integer
+21,housing_tenure,CONDMORA,Condição de Moradia,family,97,97,1,1 - Alugada,CONDMORA,integer
+22,bathroom_count,QT_BANHO,Banheiros,family,98,98,1,,QT_BANHO,integer
+23,domestic_employee_count,QT_EMPRE,Empregados Domésticos,family,99,99,1,,QT_EMPRE,integer
+24,car_count,QT_AUTO,Automóveis,family,100,100,1,,QT_AUTO,integer
+25,computer_count,QT_MICRO,Microcomputadores,family,101,101,1,,QT_MICRO,integer
+26,dishwasher_count,QT_LAVALOU,Máquinas de Lava louças,family,102,102,1,,QT_LAVALOU,integer
+27,single_door_refrigerator_count,QT_GEL,Geladeiras de uma porta,family,103,103,1,,QT_GEL,integer
+28,freezer_count,QT_FREEZ,Freezers,family,104,104,1,,QT_FREEZ,integer
+29,washing_machine_count,QT_MLAVA,Máquinas de Lavar roupa,family,105,105,1,,QT_MLAVA,integer
+30,dvd_count,QT_DVD,DVDs,family,106,106,1,,QT_DVD,integer
+31,microwave_count,QT_MICROON,Microondas,family,107,107,1,,QT_MICROON,integer
+32,motorcycle_count,QT_MOTO,Motos,family,108,108,1,,QT_MOTO,integer
+33,clothes_dryer_count,QT_SECAROU,Secadora de roupas,family,109,109,1,,QT_SECAROU,integer
+34,bicycle_count,QT_BICICLE,Bicicletas,family,110,110,1,,QT_BICICLE,integer
+35,comfort_items_declaration,NAO_DCL_IT,Código de Declaração de Itens de Conforto,family,111,111,1,0 - Não Declarou Itens de Conforto,NAO_DCL_IT,character
+36,brazil_economic_class,CRITERIOBR,Critério de Classificação Econômica Brasil,family,112,112,1,1 - A,CRITERIOBR,integer
+37,brazil_economic_score,PONTO_BR,Pontos Critério Brasil,family,113,114,2,,PONTO_BR,integer
+38,car_1_year,ANO_AUTO1,Ano Fabricação do Auto 1,family,115,118,4,,ANO_AUTO1,character
+39,car_2_year,ANO_AUTO2,Ano Fabricação do Auto 2,family,119,122,4,,ANO_AUTO2,character
+40,car_3_year,ANO_AUTO3,Ano Fabricação do Auto 3,family,123,126,4,,ANO_AUTO3,character
+41,family_monthly_income,RENDA_FA,Renda Familiar Mensal,family,127,135,9,"9 dígitos, 2 casas decimais",RENDA_FA,numeric
+42,family_income_code,CD_RENFA,Código de Renda Familiar Mensal,family,136,136,1,1 - Renda Familiar Declarada e Maior que Zero,CD_RENFA,integer
+43,person_id,ID_PESS,Identifica Pessoa,person,137,147,11,,ID_PESS,numeric
+44,first_person_record,F_PESS,Identifica Primeiro Registro da Pessoa,person,148,148,1,0 - Demais registros,F_PESS,integer
+45,person_expansion_factor,FE_PESS,Fator de Expansão da Pessoa,person,149,159,11,11 dígitos 6 casas decimais,FE_PESS,numeric
+46,person_number,PESSOA,Número da Pessoa,person,160,161,2,,PESSOA,integer
+47,family_role,SIT_FAM,Situação Familiar,person,162,162,1,1 - Pessoa Responsável,SIT_FAM,integer
+48,age,IDADE,Idade (em anos),person,163,165,3,(anos),IDADE,integer
+49,sex,SEXO,Sexo,person,166,166,1,1 - Masculino,SEXO,integer
+50,race,RAÇA,Raça / Cor,person,167,167,1,1 -Branca,RA_A,integer
+51,currently_studies,ESTUDA,Estuda Atualmente?,person,168,168,1,1 - Não,ESTUDA,integer
+52,education_level,GRAU_INS,Grau de Instrução,person,169,169,1,1 - Não Alfabetizado/Fundamental I Incompleto,GRAU_INS,integer
+53,activity_status,CD_ATIVI,Condição de Atividade,person,170,170,1,1 - Tem trabalho regular,CD_ATIVI,integer
+54,individual_income_status,CO_REN_I,Condição da Renda Individual,person,171,171,1,1 - Tem Renda,CO_REN_I,integer
+55,individual_income,VL_REN_I,Valor da Renda Individual,person,172,180,9,"9 dígitos, 2 casas decimais",VL_REN_I,character
+56,stopped_transport_due_pandemic,ID_TRANSP_PANDEMIA,Deixou de usar algum modo de transporte habitual por causa da pandemia?,person,181,181,1,N - Não,ID_TRANSP_,character
+57,stopped_metro_monorail,ID_NAO_USOU_TRANSP1,Deixou de usar metrô/monotrilho?,person,182,182,1,N - Não,ID_NAO_USO,character
+58,stopped_train,ID_NAO_USOU_TRANSP2,Deixou de usar trem?,person,183,183,1,N - Não,ID_NAO_US2,character
+59,stopped_bus_van,ID_NAO_USOU_TRANSP3,Deixou de usar ônibus/micro-ônibus/van?,person,184,184,1,N - Não,ID_NAO_US3,character
+60,stopped_chartered_transport,ID_NAO_USOU_TRANSP4,Deixou de usar transporte fretado?,person,185,185,1,N - Não,ID_NAO_US4,character
+61,stopped_school_transport,ID_NAO_USOU_TRANSP5,Deixou de usar transporte escolar?,person,186,186,1,N - Não,ID_NAO_US5,character
+62,stopped_car,ID_NAO_USOU_TRANSP6,Deixou de usar automóvel - dirigindo ou passageiro?,person,187,187,1,N - Não,ID_NAO_US6,character
+63,stopped_conventional_taxi,ID_NAO_USOU_TRANSP7,Deixou de usar táxi convencional?,person,188,188,1,N - Não,ID_NAO_US7,character
+64,stopped_ride_hailing,ID_NAO_USOU_TRANSP8,Deixou de usar táxi não convencional/aplicativo?,person,189,189,1,N - Não,ID_NAO_US8,character
+65,stopped_motorcycle,ID_NAO_USOU_TRANSP9,Deixou de usar moto - dirigindo ou passageiro?,person,190,190,1,N - Não,ID_NAO_US9,character
+66,stopped_bicycle,ID_NAO_USOU_TRANSP10,Deixou de usar bicicleta?,person,191,191,1,N - Não,ID_NAO_U10,character
+67,school_zone,ZONA_ESC,Zona da Escola,person,192,194,3,1 a 527 ou 999 quando for zona externa,ZONA_ESC,integer
+68,school_municipality,MUNIESC,Município da Escola,person,195,196,2,1 a 39 ou 99 quando for município externo,MUNIESC,integer
+69,school_x,CO_ESC_X,Coordenada X Escola,person,197,208,12,12 dígitos,CO_ESC_X,integer
+70,school_y,CO_ESC_Y,Coordenada Y Escola,person,209,220,12,12 dígitos,CO_ESC_Y,integer
+71,school_type,TIPO_ESC,Tipo de Escola,person,221,221,1,1 - Pública,TIPO_ESC,integer
+72,school_attendance_mode,CD_PRES_HIB_esc,Como participa das aulas?,person,222,222,1,1 - Presencial o tempo todo,CD_PRES_HI,character
+73,school_hybrid_frequency_unit,CD_TIPO_HIBRIDO_esc,"Se ensino híbrido, com que frequência presencial?",person,223,223,1,1 - dias por semana,CD_TIPO_HI,character
+74,school_hybrid_frequency,QT_HIBRIDO_esc,"Nº  dias/semana referente à frequência presencial, no formato híbrido",person,224,224,1,,QT_HIBRIDO,character
+75,primary_work_zone,ZONATRA1,Zona do Primeiro Trabalho,person,225,227,3,1 a 527ou 999 quando for zona externa,ZONATRA1,integer
+76,primary_work_municipality,MUNITRA1,Município do Primeiro Trabalho,person,228,229,2,1 a 39 ou 99 quando for município externo,MUNITRA1,integer
+77,primary_work_x,CO_TR1_X,Coordenada X 1º Trabalho,person,230,236,7,12 dígitos,CO_TR1_X,integer
+78,primary_work_y,CO_TR1_Y,Coordenada Y 1º Trabalho,person,237,243,7,12 dígitos,CO_TR1_Y,integer
+79,primary_work_at_home,TRAB1_RE,Primeiro Trabalho é igual a Residência ?,person,244,244,1,1 - Sim,TRAB1_RE,integer
+80,primary_work_external,TRABEXT1,Realiza Trabalho Externo-1º Trabalho,person,245,245,1,1 - Sim,TRABEXT1,character
+81,primary_work_occupation,DS_OCUP_TRAB1,Descrição da ocupação do 1º Trabalho,person,246,315,70,,DS_OCUP_TR,character
+82,primary_work_activity_sector,SETOR1,Setor de Atividade do 1º Trabalho,person,316,317,2,1 - Agrícola,SETOR1,integer
+83,primary_work_employment_relationship,VINC1,Vínculo Empregatício do 1º Trabalho,person,318,318,1,1 - Assalariado com carteira,VINC1,integer
+84,primary_work_mode,CD_PRES_HIB_t1,Forma de trabalho 1 para quem tem trabalho regular ou faz bico,person,319,319,1,1 - Só presencial,CD_PRES_H2,integer
+85,primary_work_hybrid_frequency_unit,CD_TIPO_HIBRIDO_t1,"Se trabalho 1 é híbrido, com que frequência presencial?",person,320,320,1,1 - Dias por semana,CD_TIPO_H2,character
+86,primary_work_hybrid_frequency,QT_HIBRIDO_t1,"Nº  dias/semana referente à frequência presencial, no formato híbrido",person,321,321,1,,QT_HIBRID2,character
+87,secondary_work_zone,ZONATRA2,Zona do 2º Trabalho,person,322,324,3,1 a 527 ou 999 quando for zona externa,ZONATRA2,integer
+88,secondary_work_municipality,MUNITRA2,Município do 2º Trabalho,person,325,326,2,1 a 39 ou 99 quando for município externo,MUNITRA2,integer
+89,secondary_work_x,CO_TR2_X,Coordenada X 2º Trabalho,person,327,338,12,12 dígitos,CO_TR2_X,integer
+90,secondary_work_y,CO_TR2_Y,Coordenada Y 2º Trabalho,person,339,350,12,12 dígitos,CO_TR2_Y,integer
+91,secondary_work_at_home,TRAB2_RE,Segundo Trabalho é igual a residência ?,person,351,351,1,1 - Sim,TRAB2_RE,integer
+92,secondary_work_external,TRABEXT2,Realiza Trabalho Externo-2º Trabalho,person,352,352,1,1 - Sim,TRABEXT2,character
+93,secondary_work_occupation,DS_OCUP_TRAB2,Descrição da ocupação do 2º Trabalho,person,353,422,70,idem à 1º Ocupação,DS_OCUP_T2,character
+94,secondary_work_activity_sector,SETOR2,Setor de Atividade do 2º Trabalho,person,423,424,2,idem ao 1º Setor de Atividade,SETOR2,integer
+95,secondary_work_employment_relationship,VINC2,Vínculo Empregatício do 2º Trabalho,person,425,425,1,idem ao 1º Vínculo Empregatício,VINC2,integer
+96,secondary_work_mode,CD_PRES_HIB_t2,Forma de trabalho 2 para quem tem trabalho regular ou faz bico,person,426,426,1,1 - Só presencial,CD_PRES_H3,integer
+97,secondary_work_hybrid_frequency_unit,CD_TIPO_HIBRIDO_t2,"Se trabalho 2 é híbrido, com que frequência presencial?",person,427,427,1,1 - Dias por semana,CD_TIPO_H3,character
+98,secondary_work_hybrid_frequency,QT_HIBRIDO_t2,"Nº  dias/semana referente à frequência presencial, no formato  híbrido",person,428,428,1,,QT_HIBRID3,character
+99,trip_number,N_VIAG,Número da Viagem,trip,429,430,2,,N_VIAG,integer
+100,trip_expansion_factor,FE_VIA,Fator de Expansão de Viagem,trip,431,442,12,"12 dígitos, 10 casas decimais",FE_VIA,numeric
+101,weekday,DIA_SEM,Dia da Semana,trip,443,443,1,2 - Segunda-feira,DIA_SEM,integer
+102,person_trip_count,TOT_VIAG,Total de Viagens da Pessoa,trip,444,445,2,,TOT_VIAG,integer
+103,origin_zone,ZONA_O,Zona de Origem,trip,446,448,3,1 a 527,ZONA_O,integer
+104,origin_municipality,MUNI_O,Município de Origem,trip,449,450,2,1 a 39,MUNI_O,integer
+105,origin_x,CO_O_X,Coordenada X Origem,trip,451,462,12,12 dígitos,CO_O_X,integer
+106,origin_y,CO_O_Y,Coordenada Y Origem,trip,463,474,12,12 dígitos,CO_O_Y,integer
+107,destination_zone,ZONA_D,Zona de Destino,trip,475,477,3,1 a 527,ZONA_D,integer
+108,destination_municipality,MUNI_D,Município de Destino,trip,478,479,2,1 a 39,MUNI_D,integer
+109,destination_x,CO_D_X,Coordenada X Destino,trip,480,491,12,12 dígitos,CO_D_X,integer
+110,destination_y,CO_D_Y,Coordenada Y Destino,trip,492,503,12,12 dígitos,CO_D_Y,integer
+111,transfer_1_zone,ZONA_T1,Zona da 1ª Transferência,trip,504,506,3,1 a 527,ZONA_T1,integer
+112,transfer_1_municipality,MUNI_T1,Município 1ª Transferência,trip,507,508,2,1 a 39,MUNI_T1,integer
+113,transfer_1_x,CO_T1_X,Coordenada X 1ª Transferência,trip,509,520,12,12 dígitos,CO_T1_X,integer
+114,transfer_1_y,CO_T1_Y,Coordenada Y 1ª Transferência,trip,521,532,12,12 dígitos,CO_T1_Y,integer
+115,transfer_2_zone,ZONA_T2,Zona da 2ª Transferência,trip,533,535,3,1 a 527,ZONA_T2,integer
+116,transfer_2_municipality,MUNI_T2,Município 2ª Transferência,trip,536,537,2,1 a 39,MUNI_T2,integer
+117,transfer_2_x,CO_T2_X,Coordenada X 2ª Transferência,trip,538,549,12,12 dígitos,CO_T2_X,integer
+118,transfer_2_y,CO_T2_Y,Coordenada Y 2ª Transferência,trip,550,561,12,12 dígitos,CO_T2_Y,integer
+119,transfer_3_zone,ZONA_T3,Zona da 3ª Transferência,trip,562,564,3,1 a 527,ZONA_T3,integer
+120,transfer_3_municipality,MUNI_T3,Município 3ª Transferência,trip,565,566,2,1 a 39,MUNI_T3,integer
+121,transfer_3_x,CO_T3_X,Coordenada X 3ª Transferência,trip,567,578,12,12 dígitos,CO_T3_X,integer
+122,transfer_3_y,CO_T3_Y,Coordenada Y 3ª Transferência,trip,579,590,12,12 dígitos,CO_T3_Y,integer
+123,origin_purpose,MOTIVO_O,Motivo na Origem,trip,591,592,2,1 - Trabalho Indústria,MOTIVO_O,integer
+124,destination_purpose,MOTIVO_D,Motivo no Destino,trip,593,594,2,idem ao anterior,MOTIVO_D,integer
+125,trip_purpose,MOTIVO,Motivo,trip,595,596,2,1 - Trabalho Indústria,MOTIVO,integer
+126,serve_passenger_origin,SERVIR_O,Servir Passageiro na Origem,trip,597,597,1,1 - Sim,SERVIR_O,character
+127,serve_passenger_destination,SERVIR_D,Servir Passageiro no Destino,trip,598,598,1,1 - Sim,SERVIR_D,character
+128,mode_1,MODO1,Modo 1,trip,599,600,2,01 - Metrô,MODO1,integer
+129,mode_2,MODO2,Modo 2,trip,601,602,2,idem ao anterior,MODO2,integer
+130,mode_3,MODO3,Modo 3,trip,603,604,2,idem ao anterior,MODO3,integer
+131,mode_4,MODO4,Modo 4,trip,605,606,2,idem ao anterior,MODO4,integer
+132,departure_hour,H_SAIDA,Hora de Saída,trip,607,608,2,Hora de Saída,H_SAIDA,integer
+133,departure_minute,MIN_SAIDA,Minuto de Saída,trip,609,610,2,Minuto de Saída,MIN_SAIDA,integer
+134,origin_walking_minutes,ANDA_O,Tempo Andando na Origem,trip,611,612,2,Em minutos,ANDA_O,character
+135,arrival_hour,H_CHEG,Hora de Chegada,trip,613,614,2,Hora de Chegada,H_CHEG,integer
+136,arrival_minute,MIN_CHEG,Minuto de Chegada,trip,615,616,2,Minuto de Chegada,MIN_CHEG,integer
+137,destination_walking_minutes,ANDA_D,Tempo Andando no Destino,trip,617,618,2,Em minutos,ANDA_D,character
+138,duration_minutes,DURACAO,Duração da Viagem em minutos,trip,619,621,3,Em minutos,DURACAO,integer
+139,main_mode,MODOPRIN,Modo Principal da Viagem,trip,622,623,2,idem ao MODO1,MODOPRIN,integer
+140,trip_type,TIPVG,Tipo de Viagem,trip,624,624,1,1 - Coletivo,TIPVG,integer
+141,vehicle_parking_type,TP_ESAUTO,Tipo de Estacionamento do Automóvel / Moto,trip,625,625,1,1 - Não estacionou,TP_ESAUTO,integer
+142,vehicle_parking_cost,VL_EST,Valor do Estacionamento do Automóvel / Moto,trip,626,631,6,"6 dígitos, 2 casas decimais",VL_EST,integer
+143,walk_bicycle_reason,PE_BICI,Por Que Viajou A Pé ou Bicicleta?,trip,632,632,1,1 - Pequena distância,PE_BICI,integer
+144,bicycle_parking_type,TP_ESTBICI,Tipo de Estacionamento Bicicleta,trip,633,633,1,1 - Não Estacionou,TP_ESTBICI,integer
+145,bicycle_ownership,PROP_BICI,Propriedade da Bicicleta,trip,,,,1 - Própria,PROP_BICI,integer
+146,straight_line_distance_m,DISTANCIA,Distância em linha reta (em metros),trip,634,641,8,"8 dígitos, 2 casas decimais",DISTANCIA,numeric
+147,record_id,ID_ORDEM,Número de Ordem do registro,trip,642,647,6,De 1 a 143.038,ID_ORDEM,integer
